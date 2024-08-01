@@ -1,0 +1,92 @@
+// Copyright Epic Games, Inc. All Rights Reserved.
+/*===========================================================================
+	Generated code exported from UnrealHeaderTool.
+	DO NOT modify this manually! Edit the corresponding .h files instead!
+===========================================================================*/
+
+// IWYU pragma: private, include "AgoraBluePrintPlugin/IMediaStreamingSourceObserver.h"
+#include "UObject/ObjectMacros.h"
+#include "UObject/ScriptMacros.h"
+
+PRAGMA_DISABLE_DEPRECATION_WARNINGS
+enum class ESTREAMING_SRC_ERR : uint8;
+enum class ESTREAMING_SRC_STATE : uint8;
+#ifdef AGORAPLUGIN_IMediaStreamingSourceObserver_generated_h
+#error "IMediaStreamingSourceObserver.generated.h already included, missing '#pragma once' in IMediaStreamingSourceObserver.h"
+#endif
+#define AGORAPLUGIN_IMediaStreamingSourceObserver_generated_h
+
+#define FID_Users_ivanDesktop_Desktop_AgoraTest53_Plugins_AgoraPlugin_Source_AgoraPlugin_Public_AgoraBluePrintPlugin_IMediaStreamingSourceObserver_h_11_DELEGATE \
+AGORAPLUGIN_API void FOnStateChanged_DelegateWrapper(const FMulticastScriptDelegate& OnStateChanged, ESTREAMING_SRC_STATE state, ESTREAMING_SRC_ERR err_code);
+
+
+#define FID_Users_ivanDesktop_Desktop_AgoraTest53_Plugins_AgoraPlugin_Source_AgoraPlugin_Public_AgoraBluePrintPlugin_IMediaStreamingSourceObserver_h_12_DELEGATE \
+AGORAPLUGIN_API void FOnOpenDone_DelegateWrapper(const FMulticastScriptDelegate& OnOpenDone, ESTREAMING_SRC_ERR err_code);
+
+
+#define FID_Users_ivanDesktop_Desktop_AgoraTest53_Plugins_AgoraPlugin_Source_AgoraPlugin_Public_AgoraBluePrintPlugin_IMediaStreamingSourceObserver_h_13_DELEGATE \
+AGORAPLUGIN_API void FOnSeekDone_DelegateWrapper(const FMulticastScriptDelegate& OnSeekDone, ESTREAMING_SRC_ERR err_code);
+
+
+#define FID_Users_ivanDesktop_Desktop_AgoraTest53_Plugins_AgoraPlugin_Source_AgoraPlugin_Public_AgoraBluePrintPlugin_IMediaStreamingSourceObserver_h_14_DELEGATE \
+AGORAPLUGIN_API void FOnEofOnce_DelegateWrapper(const FMulticastScriptDelegate& OnEofOnce, int64 progress_ms, int64 repeat_count);
+
+
+#define FID_Users_ivanDesktop_Desktop_AgoraTest53_Plugins_AgoraPlugin_Source_AgoraPlugin_Public_AgoraBluePrintPlugin_IMediaStreamingSourceObserver_h_15_DELEGATE \
+AGORAPLUGIN_API void FOnProgress_DelegateWrapper(const FMulticastScriptDelegate& OnProgress, int64 position_ms);
+
+
+#define FID_Users_ivanDesktop_Desktop_AgoraTest53_Plugins_AgoraPlugin_Source_AgoraPlugin_Public_AgoraBluePrintPlugin_IMediaStreamingSourceObserver_h_16_DELEGATE \
+AGORAPLUGIN_API void FOnMetaData_DelegateWrapper(const FMulticastScriptDelegate& OnMetaData, const int64 data, int32 length);
+
+
+#define FID_Users_ivanDesktop_Desktop_AgoraTest53_Plugins_AgoraPlugin_Source_AgoraPlugin_Public_AgoraBluePrintPlugin_IMediaStreamingSourceObserver_h_26_SPARSE_DATA
+#define FID_Users_ivanDesktop_Desktop_AgoraTest53_Plugins_AgoraPlugin_Source_AgoraPlugin_Public_AgoraBluePrintPlugin_IMediaStreamingSourceObserver_h_26_SPARSE_DATA_PROPERTY_ACCESSORS
+#define FID_Users_ivanDesktop_Desktop_AgoraTest53_Plugins_AgoraPlugin_Source_AgoraPlugin_Public_AgoraBluePrintPlugin_IMediaStreamingSourceObserver_h_26_EDITOR_ONLY_SPARSE_DATA_PROPERTY_ACCESSORS
+#define FID_Users_ivanDesktop_Desktop_AgoraTest53_Plugins_AgoraPlugin_Source_AgoraPlugin_Public_AgoraBluePrintPlugin_IMediaStreamingSourceObserver_h_26_RPC_WRAPPERS_NO_PURE_DECLS
+#define FID_Users_ivanDesktop_Desktop_AgoraTest53_Plugins_AgoraPlugin_Source_AgoraPlugin_Public_AgoraBluePrintPlugin_IMediaStreamingSourceObserver_h_26_ACCESSORS
+#define FID_Users_ivanDesktop_Desktop_AgoraTest53_Plugins_AgoraPlugin_Source_AgoraPlugin_Public_AgoraBluePrintPlugin_IMediaStreamingSourceObserver_h_26_INCLASS_NO_PURE_DECLS \
+private: \
+	static void StaticRegisterNativesUIMediaStreamingSourceObserver(); \
+	friend struct Z_Construct_UClass_UIMediaStreamingSourceObserver_Statics; \
+public: \
+	DECLARE_CLASS(UIMediaStreamingSourceObserver, UObject, COMPILED_IN_FLAGS(0), CASTCLASS_None, TEXT("/Script/AgoraPlugin"), NO_API) \
+	DECLARE_SERIALIZER(UIMediaStreamingSourceObserver)
+
+
+#define FID_Users_ivanDesktop_Desktop_AgoraTest53_Plugins_AgoraPlugin_Source_AgoraPlugin_Public_AgoraBluePrintPlugin_IMediaStreamingSourceObserver_h_26_ENHANCED_CONSTRUCTORS \
+	/** Standard constructor, called after all reflected properties have been initialized */ \
+	NO_API UIMediaStreamingSourceObserver(const FObjectInitializer& ObjectInitializer = FObjectInitializer::Get()); \
+private: \
+	/** Private move- and copy-constructors, should never be used */ \
+	NO_API UIMediaStreamingSourceObserver(UIMediaStreamingSourceObserver&&); \
+	NO_API UIMediaStreamingSourceObserver(const UIMediaStreamingSourceObserver&); \
+public: \
+	DECLARE_VTABLE_PTR_HELPER_CTOR(NO_API, UIMediaStreamingSourceObserver); \
+	DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(UIMediaStreamingSourceObserver); \
+	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(UIMediaStreamingSourceObserver) \
+	NO_API virtual ~UIMediaStreamingSourceObserver();
+
+
+#define FID_Users_ivanDesktop_Desktop_AgoraTest53_Plugins_AgoraPlugin_Source_AgoraPlugin_Public_AgoraBluePrintPlugin_IMediaStreamingSourceObserver_h_23_PROLOG
+#define FID_Users_ivanDesktop_Desktop_AgoraTest53_Plugins_AgoraPlugin_Source_AgoraPlugin_Public_AgoraBluePrintPlugin_IMediaStreamingSourceObserver_h_26_GENERATED_BODY \
+PRAGMA_DISABLE_DEPRECATION_WARNINGS \
+public: \
+	FID_Users_ivanDesktop_Desktop_AgoraTest53_Plugins_AgoraPlugin_Source_AgoraPlugin_Public_AgoraBluePrintPlugin_IMediaStreamingSourceObserver_h_26_SPARSE_DATA \
+	FID_Users_ivanDesktop_Desktop_AgoraTest53_Plugins_AgoraPlugin_Source_AgoraPlugin_Public_AgoraBluePrintPlugin_IMediaStreamingSourceObserver_h_26_SPARSE_DATA_PROPERTY_ACCESSORS \
+	FID_Users_ivanDesktop_Desktop_AgoraTest53_Plugins_AgoraPlugin_Source_AgoraPlugin_Public_AgoraBluePrintPlugin_IMediaStreamingSourceObserver_h_26_EDITOR_ONLY_SPARSE_DATA_PROPERTY_ACCESSORS \
+	FID_Users_ivanDesktop_Desktop_AgoraTest53_Plugins_AgoraPlugin_Source_AgoraPlugin_Public_AgoraBluePrintPlugin_IMediaStreamingSourceObserver_h_26_RPC_WRAPPERS_NO_PURE_DECLS \
+	FID_Users_ivanDesktop_Desktop_AgoraTest53_Plugins_AgoraPlugin_Source_AgoraPlugin_Public_AgoraBluePrintPlugin_IMediaStreamingSourceObserver_h_26_ACCESSORS \
+	FID_Users_ivanDesktop_Desktop_AgoraTest53_Plugins_AgoraPlugin_Source_AgoraPlugin_Public_AgoraBluePrintPlugin_IMediaStreamingSourceObserver_h_26_INCLASS_NO_PURE_DECLS \
+	FID_Users_ivanDesktop_Desktop_AgoraTest53_Plugins_AgoraPlugin_Source_AgoraPlugin_Public_AgoraBluePrintPlugin_IMediaStreamingSourceObserver_h_26_ENHANCED_CONSTRUCTORS \
+private: \
+PRAGMA_ENABLE_DEPRECATION_WARNINGS
+
+
+template<> AGORAPLUGIN_API UClass* StaticClass<class UIMediaStreamingSourceObserver>();
+
+#undef CURRENT_FILE_ID
+#define CURRENT_FILE_ID FID_Users_ivanDesktop_Desktop_AgoraTest53_Plugins_AgoraPlugin_Source_AgoraPlugin_Public_AgoraBluePrintPlugin_IMediaStreamingSourceObserver_h
+
+
+PRAGMA_ENABLE_DEPRECATION_WARNINGS
